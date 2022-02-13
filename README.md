@@ -1,3 +1,3 @@
-# vercel-function-starter
+# Google Map Proxy
 
-run `rollup -c`
+
