@@ -7,5 +7,5 @@ export default {
         format: "esm",
     },
     plugins: [nodeResolve()],
-    external: [],
+    external: ["axios"],
 };
