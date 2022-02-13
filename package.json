@@ -1,0 +1,23 @@
+{
+  "name": "vercel-function-starter",
+  "version": "0.1.0",
+  "description": "A Templete For Vercel Serverless Functions deploy",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxsdev/vercel-function-starter.git"
+  },
+  "author": "liuxsedev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxsdev/vercel-function-starter/issues"
+  },
+  "homepage": "https://github.com/liuxsdev/vercel-function-starter#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.67.2"
+  }
+}
