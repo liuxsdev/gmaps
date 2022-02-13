@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "A Templete For Vercel Serverless Functions deploy",
   "main": "index.js",
-  "scripts": {
-    "build": "rollup -c"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuxsdev/vercel-function-starter.git"
