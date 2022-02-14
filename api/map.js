@@ -39,6 +39,7 @@ async function handler(request, response) {
     try {
         let imagedata = await getGoogleMapTileImage(x, y, z);
         response.setHeader("Content-Type", "image/jpeg");
+        response.setHeader("Access-Control-Allow-Origin", "*");
         response.status(200).send(imagedata);
     } catch (e) {
         response.status(500);
