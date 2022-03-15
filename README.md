@@ -4,11 +4,16 @@
 
 # 示例
 
-
-
-![](/api/map?x=0&y=0&z=0)
-
 > x=0 y=0 z=0 的瓦片
+
+| ![Map](https://qgismaps.vercel.app/api/map?x=0&y=0&z=0) | ![Map](http://mt1.google.com/vt/lyrs=s&x=0&y=0&z=0) |
+| :-----------------------------------------------------: | :-------------------------------------------------: |
+|                          代理                           |                        原版谷歌Map                         |
+
+
+
+
+
 
 # 使用方法
 
@@ -22,7 +27,7 @@ https://qgismaps.vercel.app/api/map?x={x}&y={y}&z={z}
  - 仅供个人研究使用
  - 只做了`satellite only`图层代理，其他图层均有偏移，无法使用
  - `Vercel`访问速度跟所处区域和网络有关
- - `Vercel`免费有额度限制，可以fork我的仓库 [liuxsdev/gmaps](https://github.com/liuxsdev/gmaps) ,自己部署自己使用
- - ❤❤❤
+ - `Vercel`免费有额度限制，可以fork我的仓库 [liuxsdev/gmaps](https://github.com/liuxsdev/gmaps) ,自己部署使用
+ - code with ❤
 
 <a href="https://vercel.com/" target="_blank"><img src="./vercel-logotype-dark.svg" width="100px"></a>
